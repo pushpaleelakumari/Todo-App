@@ -133,7 +133,7 @@
   height: 100%;
   width: 100%;
   left: 0px;
-  bottom: -2px;
+  bottom: -1.7px;
   border-bottom: 2.8px solid white;
   transform: translateX(-100%);
   transition: transform 0.3s ease;
