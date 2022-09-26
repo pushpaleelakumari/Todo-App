@@ -1,0 +1,41 @@
+#cross{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.todo-item{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+    margin-bottom: 5px;
+    width: 100%;
+    align-items: center;
+    font-size: 19px;
+    border-radius: 5px;
+}
+.todo-item p{
+    margin-left: 10px;
+}
+.list-container{
+    width: 100%;
+    max-height: 50vh;
+    overflow-y:scroll;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgb(254, 255, 255);
+    width: 2px;
+    height: 100%;
+    
+  }
+  
+::-webkit-scrollbar {
+    display: none;
+}
