@@ -17,6 +17,10 @@
 .todo-item p{
     margin-left: 10px;
 }
+.p-tag{
+    width: 80%;
+    word-wrap: break-word;
+}
 .list-container{
     width: 100%;
     max-height: 50vh;
