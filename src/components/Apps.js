@@ -1,6 +1,5 @@
 import './Apps.css'
 import React, { useState, useEffect } from 'react'
-import List from './List'
 import ListItem from './ListItem'
 
 
