@@ -21,7 +21,7 @@ function Apps() {
     // deleting Items in the list
 
     function deleteItem(id) {
-        const arr = todos.filter((todo) => todo.id != id)
+        const arr = todos.filter((todo) => todo.id !== id)
         setTodos(arr)
         localStorage.setItem(Local_Storage_Key, JSON.stringify(arr))
     }
