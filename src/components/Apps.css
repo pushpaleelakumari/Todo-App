@@ -157,3 +157,7 @@
   margin: 6px;
 }
 
+.global{
+  display: flex;
+  justify-content: center;
+}
