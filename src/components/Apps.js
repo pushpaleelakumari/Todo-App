@@ -5,7 +5,7 @@ import ListItem from './ListItem'
 
 function Apps() {
     // When ever our List got updated we have to store in our local storage
-
+    console.log('hello there')
     const [todos, setTodos] = useState([])
     const Local_Storage_Key = 'react-app-todos';
 
